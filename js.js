@@ -125,22 +125,42 @@
 // });
 
 
-const first_number = prompt("First number");
-const operator = prompt("mathematical operator");
-const second_number = prompt("Second number");
+// const first_number = prompt("First number");
+// const operator = prompt("mathematical operator");
+// const second_number = prompt("Second number");
 
-if (operator === "+") {
-    console.log(Number(first_number) + Number(second_number));
-} else if (operator === "-"){
-    console.log(Number(first_number) - Number(second_number));
-}else if (operator === "*"){
-    console.log(Number(first_number) * Number(second_number));
-}else if (operator === "/"){
-    console.log(Number(first_number) / Number(second_number));
-}else if (operator === "**"){
-    console.log(Number(first_number) ** Number(second_number));
-}else {
-    alert("eeeeerrrrrrrrrrooooooooooor")
+// if (operator === "+") {
+//     console.log(Number(first_number) + Number(second_number));
+// } else if (operator === "-"){
+//     console.log(Number(first_number) - Number(second_number));
+// }else if (operator === "*"){
+//     console.log(Number(first_number) * Number(second_number));
+// }else if (operator === "/"){
+//     console.log(Number(first_number) / Number(second_number));
+// }else if (operator === "**"){
+//     console.log(Number(first_number) ** Number(second_number));
+// }else {
+//     alert("eeeeerrrrrrrrrrooooooooooor")
+// }
+
+
+
+
+for (let i = 0; i <= 5; i++) {
+    console.log(i);
+    
 }
 
+
+for (var i = 0; i < 3; i++) {
+    let name = "John Doe";
+    console.log("Hi, my name is " + name);
+    }
+    
+for (let i = 1; i <= 10; i++) {
+    if (i == 5) {
+    break;
+    }
+    console.log(i);
+    }
 
